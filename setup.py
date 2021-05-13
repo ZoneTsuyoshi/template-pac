@@ -12,7 +12,7 @@ with open('LICENSE.txt') as f:
     license = f.read()
 
 setup(
-    name='template-pac',
+    name='template_pac',
     version='0.0.1',
     description='template package',
     long_description=readme,
@@ -22,7 +22,7 @@ setup(
     python_requires=">=3",
     license=license,
     url='https://github.com/ZoneTsuyoshi/template-pac',
-    packages=find_packages(include='temp'),
+    packages=find_packages(include='template_pac'),
     py_modules=["math"],
     test_suite='tests'
 )
